@@ -2,7 +2,7 @@ import epics as ep
 import csv
 import numpy as np
 
-val=np.zeros((338,1))
+val=np.zeros((370,1))
 name=[]
 with open('var.csv') as csvfile:
     csvfile=csv.reader(csvfile,delimiter=',',quotechar='"')
